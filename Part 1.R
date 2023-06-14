@@ -9,8 +9,8 @@ library(lsr)
 library(psych)
 
 LOS_dataset <- NHSRdatasets::LOS_model
-LOS <- df$LOS
-Age <- df$Age
+LOS <- LOS_dataset $LOS
+Age <- LOS_dataset $Age
 
 # Understanding the data using descriptive statistics -------------
 ## measures of central tendency -----
