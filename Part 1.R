@@ -57,7 +57,7 @@ sqrt(mean((LOS - mean(LOS))^2))/mean(LOS)
 
 
 ### Which variability metrics to use? ----
-stranded_dataset <- NHSRdatasets::stranded
+stranded_dataset <- NHSRdatasets::stranded_data
 summary(stranded_dataset)
 
 range(stranded_dataset$mental_health_care)
